@@ -1,0 +1,17 @@
+This project was developed with the built SFML-2.6.1 library. 
+All included files into the zip are what files were modified/added within their respective folders. 
+They are as follows (base directory being SFML-2.6.1):
+- /CMakeLists.txt
+- /examples/sockets/CMakeLists.txt
+- /examples/sockets/Lab5Server.cpp
+- /examples/sockets/Lab5Client.cpp
+The project can be built using the make command in /examples/sockets/ directory.
+
+Running the server file: ./Lab5Server
+- default port is 55005, Value must be changed within Lab5Server.cpp::main() if connection is not valid at this location.
+- commands: client, msg, exit
+
+Running clients: ./Lab5Client localhost [server port]
+- q, v [version number], t [message type] [ message ]
+
+NOTE: client and server running must occur from executables within /examples/sockets/ directory
